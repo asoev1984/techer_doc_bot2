@@ -57,5 +57,5 @@ async def handle_search(message: types.Message):
     else:
         await message.answer("❌ Ҳуҷҷат ёфт нашуд.")
 
-if __name__ == '__main__':
+if__name__=='__main__':
     executor.start_polling(dp, skip_updates=True)
